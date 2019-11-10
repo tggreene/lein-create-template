@@ -3,7 +3,7 @@
 A Leiningen plugin for creating templates from existing skeleton projects
 
 
-##Setup
+## Setup
 
 This plugin requires Leiningen 2.0+
 
