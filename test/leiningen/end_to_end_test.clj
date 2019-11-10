@@ -3,7 +3,7 @@
         leiningen.create-template)
   (:require [clojure.java.io :as jio]
             [leiningen.file-utils :as fu])
-  (import (java.io File FileNotFoundException)))
+  (:import (java.io File FileNotFoundException)))
 
 (def tmp-dir (System/getProperty "java.io.tmpdir"))
 

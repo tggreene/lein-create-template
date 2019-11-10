@@ -4,7 +4,7 @@
             [clojure.string :as cs]
             [leiningen.file-utils :as fu]
             [leiningen.sanitize-utils :as su])
-  (import (java.io File FileNotFoundException)))
+  (:import (java.io File FileNotFoundException)))
 
 (defn get-all-clj-files [info]
   (set (get (group-by

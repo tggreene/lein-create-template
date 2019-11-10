@@ -2,7 +2,7 @@
   (:use clojure.set)
   (:require [clojure.java.io :as jio]
             [clojure.string :as cs])
-  (import (java.io File FileNotFoundException)))
+  (:import (java.io File FileNotFoundException)))
 
 (def lein-newnew-relative-path (str "src" (File/separator) "leiningen" (File/separator) "new"))
 

@@ -1,6 +1,6 @@
 (ns leiningen.file-utils
   (:require [clojure.java.io :as jio])
-  (import (java.io File FileNotFoundException)))
+  (:import (java.io File FileNotFoundException)))
 
 (defn walk [^File dir]
   (let [children (.listFiles dir)
